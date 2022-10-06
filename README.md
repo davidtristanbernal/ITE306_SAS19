@@ -1,4 +1,3 @@
-# ITE306_SAS19
 REST API using Flask
 
 STEPS in creating a web application that will say Hello and print the username :
