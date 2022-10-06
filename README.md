@@ -3,21 +3,15 @@ REST API using Flask
 
 STEPS in creating a web application that will say Hello and print the username :
 Step 1:  Installation:
- We will require two package to setup your environment. virtualenv for a user to 
-create multiple Python environments side-by-side. Thereby, it can avoid 
-compatibility issues between the different versions of the libraries and the next will 
-be Flask itself.
+ We will require two package to setup environment.
 <virtualenv> pip install virtualenv
 <Flask> pip install Flask
-After completing the installation of the package, let’s get our hands on the code.
-Step 2:  Save it with a file name myflask1.py.
-Step 3:  Then go to the url given there you will seeing your first webpage displaying hello world 
-there on your local server. Go to the url http://127.0.0.1:5000/
+Step 2:  Save a web page with a  file name myflask1.py.
+Step 3:  Then go to the url given there you will seeing your first webpage displaying hello world. Go to the url http://127.0.0.1:5000/
 Step 4: @app.route('/hello/<name>') 
 def hello_name(name): 
  return 'Hello %s!' % name 
-STEP 4: Digging further into the context, the route() decorator in Flask is used to bind URL to a 
-function. Now to extend this functionality our small web app is also equipped with another 
+STEP 4: Now to extend this functionality our small web app is also equipped with another 
 method add_url_rule() which is a function of an application object is also available to bind 
 a URL with a function as in the above example, route() is used.
 Modify myflask1.py and add the following lines of code then save it. Don’t forget to run
