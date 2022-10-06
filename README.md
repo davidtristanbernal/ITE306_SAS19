@@ -28,10 +28,10 @@ Step 6: Save your file.
 
 STEPS in creating an HTML form and use the POST method to send form data to a URL.:
 Follow this folder directory:
->pythontest (folder)
- > login.html (html file) 
-    >login (folder)
-        >myflask2.py (python file)
+pythontest (folder)
+login.html (html file) 
+login (folder)
+myflask2.py (python file)
 STEP 1: Now let’s create a html login page. Save this new file as login.html inside the
 pythontest folder.
 STEP 2: Create a new python script and save it as myflask2.py inside the login folder, this python 
